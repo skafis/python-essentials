@@ -1,11 +1,16 @@
 #!/usr/bin/python3
 
+class Egg:
+    def __init__(self, kind = "fried"):
+        self.kind = kind
+
+    def whatkind (self):
+        return self.kind
+
 def main():
-    a = {1,2,2,7,8,3,8}
-    print (a)
-def func():
-    for i in range (10):
-        print (i, end='')
-    print ()
+    fried=egg()
+    scrambeled=egg("scrambled")
+    print (scrambled.whatkind())
+
 
 if __name__=="__main__":main()
