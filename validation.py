@@ -6,7 +6,12 @@ def main():
     user_input = user_input.lower();
     print (user_input)
     #if type(user_input)== str:
-     #   array = list(user_input)
-        #print random.choice(array)
+     #   print ("True")
+    #else:
+    #    print ("False")
+
+    array = list(user_input)
+    print (array)
+        #Print random.choice(array)
 
 if __name__=="__main__":main()
