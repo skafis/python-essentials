@@ -8,7 +8,7 @@ def main():
     #if type(user_input)== str:
      #   print ("True")
     #else:
-    #    print ("False")
+    #    print ("False"u)
 
     array = list(user_input)
     print (array)
