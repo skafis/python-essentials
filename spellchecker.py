@@ -20,3 +20,4 @@ def edist1(word):
     transposes = [a +b[1] + b[0] + b[2:] for a, b in splits if len(b)>1]
 
 
+
