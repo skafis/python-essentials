@@ -17,5 +17,6 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 def edist1(word):
     splits = [(word[:i],word[i:]) for i in range (len(words)+1)]
     deletes = [a+b[1:] for a, b in splits if b]
+    transposes = [a +b[1] + b[0] + b[2:] for a, b in splits if len(b)>1]
 
 
